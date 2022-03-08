@@ -11,6 +11,8 @@ public class GreenhouseController {
                 gc.new WaterOn(600),
                 gc.new WaterOff(800),
                 gc.new ThermostatDay(1400),
+                gc.new FanOn(200),
+                gc.new FanOff(400),
                 new Exercise25().new WaterMistOn(1000)
         };
         gc.addEvent(gc.new Restart(2000, eventList));
