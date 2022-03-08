@@ -16,7 +16,7 @@ public class Exercise25 extends  GreenhouseControls{
 
         public void action() {
             // Put hardware control code here to
-            // physically turn on the light.
+            // physically turn on the water mist handler.
             waterMist = true;
         }
 
@@ -24,6 +24,23 @@ public class Exercise25 extends  GreenhouseControls{
             return "Water mist is on";
         }
     }
+
+    public class WaterMistOff extends Event {
+        public WaterMistOff(long delayTime) {
+            super(delayTime);
+        }
+
+        public void action() {
+            // Put hardware control code here to
+            // physically turn on the water mist handler.
+            waterMist =  false;
+        }
+
+        public String toString() {
+            return "Water mist is off";
+        }
+    }
+
 
     public static void main(String[] args) {
         GreenhouseController.main(args);
