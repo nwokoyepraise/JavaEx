@@ -1,4 +1,4 @@
-import static util.Print.print;
+
 
 public class App {
 }
