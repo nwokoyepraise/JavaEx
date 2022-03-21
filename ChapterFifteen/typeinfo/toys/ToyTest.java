@@ -1,4 +1,5 @@
 package typeinfo.toys;
+
 import static util.Print.print;
 
 interface HasBatteries {
@@ -8,6 +9,10 @@ interface Waterproof {
 }
 
 interface Shoots {
+}
+
+//new interface
+interface Moves {
 }
 
 class Toy {
@@ -21,13 +26,15 @@ class Toy {
 }
 
 class FancyToy extends Toy
-        implements HasBatteries, Waterproof, Shoots {
+        implements HasBatteries, Waterproof, Shoots, Moves {
     FancyToy() {
         super(1);
     }
+
 }
 
-public class ToyTest {
+    public class ToyTest {
+
     static void printInfo(Class cc) {
         print("Class name: " + cc.getName() +
                 " is interface? [" + cc.isInterface() + "]");
