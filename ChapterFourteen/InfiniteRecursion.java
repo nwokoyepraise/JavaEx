@@ -4,7 +4,7 @@ import java.util.*;
 public class InfiniteRecursion {
     public String toString() {
         // would result to uninteded recursion
-       // return " InfiniteRecursion address: " + this + "\n";
+        // return " InfiniteRecursion address: " + this + "\n";
         return " InfiniteRecursion address: " + super.toString() + "\n";
     }
 
