@@ -1,8 +1,6 @@
 /**
  * This class solves Exercise 1 Chapter 16 ["Generics"] of the
  * book "Thinking in Java"
- *
- *  When the default constructor in typeinfo/toys.Toy is commented out, an InstantationException is thrown
  * 
  * @author nwokoyepraise
  */
