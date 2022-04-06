@@ -18,7 +18,7 @@ public class Exercise22 {
 
     public static void main(String[] args) {
         String[] sa = "a n v b m z d x e f g h i j k l".split(" ");
-        //Arrays.sort(sa, String.CASE_INSENSITIVE_ORDER);
+        // Arrays.sort(sa, String.CASE_INSENSITIVE_ORDER);
         print(Arrays.toString(sa));
         int index = Arrays.binarySearch(sa, "i",
                 String.CASE_INSENSITIVE_ORDER);
