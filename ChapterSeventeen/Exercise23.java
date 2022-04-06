@@ -7,7 +7,7 @@ import java.util.Random;
  * This class solves Exercise 22 Chapter 17 ["Arrays"] of the
  * book "Thinking in Java"
  * 
- * This exercise shows how to use autoboxing in primitiv arrays as well as using the comparator
+ * This exercise shows how to use autoboxing in primitive arrays as well as using the comparator
  * 
  * @author @nwokoyepraise
  */
