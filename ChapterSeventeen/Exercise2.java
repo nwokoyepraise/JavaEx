@@ -2,7 +2,7 @@ import java.util.Arrays;
 import static util.Print.print;
 
 /**
- * This class solves Exercise 1 Chapter 17 ["Arrays"] of the
+ * This class solves Exercise 2 Chapter 17 ["Arrays"] of the
  * book "Thinking in Java"
  * 
  * This exercise dmonstrates use of the Arrays.fill() method
